@@ -15,6 +15,41 @@
         app:fontFamily="@font/roboto"
         style="@style/my_text_style" />
 
+    <EditText
+        android:id="@+id/nickname_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/done"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorLink="@color/colorPrimary"
+        android:fontFamily="@font/roboto"
+        android:onClick="addNickname"
+        />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/my_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:paddingBottom="@dimen/layout_padding"
+        android:text="TextView"
+        android:visibility="gone" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -29,16 +64,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textViewDesc"
+                style="@style/my_text_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/profile_desc"
-                style="@style/my_text_style"/>
+                android:text="@string/profile_desc" />
+
 
         </LinearLayout>
     </ScrollView>
+
 
 </LinearLayout>
