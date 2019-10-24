@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="My_Name">Daniel Teng</string>
+    <string name="profile_pic">Profile Picture</string>
+    <string name="profile_desc">
+        HI my name is daniel \n
+        \n\t SMJK Chonge Hwa\n
+        \n\t tarc\n
+        \n\t University Malaysia\n
+        \n\t Pron Star\n
+        \n\t Programmer\n
+        \n\t Lecture Tarc
+
+    </string>
+</resources>
